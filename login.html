@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- ==========================         header           ========================= -->
+    <input type="checkbox" id="input1" hidden>
+    <header class="header">
+        <article>
+            <div class="beauty">Beauty Glow Salon</div>
+          </article>
+          <article>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="product.html">Product</a></div>
+            <div><a href="service.html">Services</a></div>
+            <div><a href="contact.html">Contact Us</a></div>
+          </article>
+          <article>
+            <div><a href="login.html"><i class="fa-solid fa-user"></i></a></div>
+          </article>
+    </header>
+    <!-- ====================================mobile header          =============================== -->
+    <section id="smallnav">
+      <article>
+          <h1> Beauty Glow Salon </h1>
+      </article>
+      <article>
+          <div><label for="input1"><i class="fa-solid fa-bars"></i></label></div>
+      </article>
+  </section>
+
+  <!-- ==============shownav================ -->
+
+  <section id="shownav">
+      <article>
+          <div><a href="#index.html">Home</a></div>
+          <div><a href="#about.html">About</a></div>
+          <div><a href="#product.html">Product</a></div>
+          <div><a href="#service.html">Service</a></div>
+          <div><a href="#contact.html">Contact us</a></div>
+      </article>
+  </section>
+    <!-- ==========================       Login  page         ========================= -->
+     <section class="login">
+   <div class="main">
+    <form action="">
+        <h1>Login</h1>
+        <div class="input_box"> 
+            <input type="text" placeholder="Username" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input_box">
+            <input type="password" placeholder="Password" required >
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="remeber_forget">
+            <label>Remember me</label>
+            <a href="#">Forget password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register_link">
+            <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+    </form>
+   </div>
+</section>
+
+  </body>
+</html>
