@@ -155,20 +155,31 @@ body{
     margin: 5px;
     align-items: center;
 }
+#shownav article div {
+    padding: 10px;
+}
+#shownav article div a{
+    text-decoration: none;
+
+    list-style: none;
+
+
+}
 #smallnav article h1 .bar{
     color: crimson;
 }
 #shownav{
-    width: 400px;
+    width: 300px;
     background-color: black;
-    height: 100vh;
+    height: 50vh;
     position: absolute;
-    top: 0px;
+    top: 60pxpx;
     left: -400px;
    
 }
 #shownav article div a{
     color: white;
+    padding: 10px;
 }
 
 @media(max-width:426px){
