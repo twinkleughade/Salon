@@ -146,11 +146,18 @@ body{
 /* ==============================================         mobile nav         =================================*/
 #smallnav{
     display: none;
+    justify-content: space-between;
     position: sticky;
     top: 0px;
     background-color: white;
 }
-
+#smallnav article{
+    margin: 5px;
+    align-items: center;
+}
+#smallnav article h1 .bar{
+    color: crimson;
+}
 #shownav{
     width: 400px;
     background-color: black;
@@ -158,6 +165,7 @@ body{
     position: absolute;
     top: 0px;
     left: -400px;
+   
 }
 #shownav article div a{
     color: white;
@@ -196,18 +204,18 @@ body{
 /* =======================  home   ========================================    */
 
 .home{
-    background-image: url(bg\ clr1.jpg);
+    background-image: url(https://i.etsystatic.com/16895977/r/il/69634d/4897961404/il_570xN.4897961404_7839.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 .home  div{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     padding-left: 150px;
     padding-top: 200px;
-    color: purple;
+    color: white;
 }
 
 @media(max-width:1024px){
@@ -224,7 +232,7 @@ body{
    height: 80vh; }
 
     .home  div{
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
         padding-left: 100px;
         padding-top: 100px;
@@ -232,13 +240,12 @@ body{
 }
 @media(max-width:426px){
     .home{
-        background-image: url(bg\ clr1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 50vh;
     }
     .home  div{
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
         padding-left: 50px;
         padding-top: 70px;
@@ -250,7 +257,7 @@ body{
         background-size: auto;
     }
     .home  div{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         padding-left: 50px;
         padding-top: 50px;
@@ -258,12 +265,12 @@ body{
 }
 @media(max-width:320px){
     .home{
-        height: 50vh;
+        height: 40vh;
         background-size: auto;
 
     }
     .home  div{
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         padding-left: 50px;
         padding-top: 70px;
