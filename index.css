@@ -163,7 +163,6 @@ body{
 
     list-style: none;
 
-
 }
 #smallnav article h1 .bar{
     color: crimson;
@@ -173,7 +172,7 @@ body{
     background-color: black;
     height: 50vh;
     position: absolute;
-    top: 60pxpx;
+    top: 60px;
     left: -400px;
    
 }
