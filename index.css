@@ -8,7 +8,6 @@ body{
     overflow-x: hidden;
 }
 
-
 /* ===============================           sidefixed          =======================================*/
 .sidefixed{
     position: fixed;
@@ -20,7 +19,7 @@ body{
 .sidefixed div{
     width: 60px;
     height: 50px;
-    background-color: rgb(243, 243, 143);
+    background-color: white;
     margin: 10px 5px 10px 0px;
     color: black;
     text-align: center;
@@ -372,14 +371,14 @@ body{
     
 .home1 article .pname{
         font-size: 20px; 
-        color: black;
+        color: purple;
         font-weight: bold;
         padding: 10px;
     }
 
 .home1 article .qname{
     font-size: 20px;
-    color: brown;
+    color:palevioletred ;
     padding: 10px;
 }
 @media(max-width:1024px){
@@ -453,9 +452,8 @@ body{
 }
 
 .home1 article .qname{
-font-size: 10px;
-color: brown;
-padding: 5px;
+  font-size: 10px;
+  padding: 5px;
 }
 }
 /* ==================================      home2             =============================================== */
@@ -543,7 +541,7 @@ padding: 5px;
 }
 
 .home3A{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding-top: 50px;
     color: crimson;
@@ -578,7 +576,7 @@ padding: 5px;
     
 .home3 article .pname{
         font-size: 20px; 
-        color: black;
+        color: purple;
         font-weight: bold;
         padding: 10px;
     }
@@ -675,7 +673,7 @@ padding: 5px;
     height: 70vh;
 }
 .home4A{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     padding-top: 50px;
     color: crimson;
@@ -775,8 +773,7 @@ padding: 30px;
 /* ==================================           home5        =========================================== */
 .customer{
     text-align: center;
-    font-size: 50px;
-    font-family: cursive;
+    font-size: 40px;
     color: crimson;
     padding-top: 100px;
 }
@@ -1719,6 +1716,7 @@ padding-left: 400px;
 padding-top: 150px;
 }
 
+
 @media(max-width:1024px){
     .contact div{
         padding-left: 360px;
@@ -2025,4 +2023,6 @@ color: white;
         width: 300px;
     }
 }
+
+
 
